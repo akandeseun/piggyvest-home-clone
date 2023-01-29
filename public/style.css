@@ -513,16 +513,25 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.mx-2 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .flex {
   display: flex;
 }
 
-.h-\[40px\] {
-  height: 40px;
+.h-\[37px\] {
+  height: 37px;
 }
 
-.w-\[225px\] {
-  width: 225px;
+.w-\[175px\] {
+  width: 175px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .list-none {
@@ -537,54 +546,32 @@ video {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
-}
-
-.justify-evenly {
-  justify-content: space-evenly;
-}
-
-.gap-y-4 {
-  row-gap: 1rem;
-}
-
-.rounded-lg {
-  border-radius: 0.5rem;
+.rounded-\[12px\] {
+  border-radius: 12px;
 }
 
 .border {
   border-width: 1px;
 }
 
-.border-black {
+.border-slate-400 {
   --tw-border-opacity: 1;
-  border-color: rgb(0 0 0 / var(--tw-border-opacity));
+  border-color: rgb(148 163 184 / var(--tw-border-opacity));
 }
 
-.bg-red-500 {
+.bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
+  background-color: rgb(12 24 37 / var(--tw-bg-opacity));
 }
 
-.bg-blue-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
-}
-
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
+.px-\[44px\] {
+  padding-left: 44px;
+  padding-right: 44px;
 }
 
 .py-\[25px\] {
   padding-top: 25px;
   padding-bottom: 25px;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
 }
 
 .py-\[16px\] {
@@ -595,18 +582,6 @@ video {
 .px-\[22px\] {
   padding-left: 22px;
   padding-right: 22px;
-}
-
-.pl-4 {
-  padding-left: 1rem;
-}
-
-.pl-8 {
-  padding-left: 2rem;
-}
-
-.pl-10 {
-  padding-left: 2.5rem;
 }
 
 .pl-\[45px\] {
