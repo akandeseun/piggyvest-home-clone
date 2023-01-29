@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap");
+
 /*
 ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com
 */
@@ -419,7 +421,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -466,7 +468,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -513,81 +515,91 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.mx-2 {
+.mx-2{
   margin-left: 0.5rem;
   margin-right: 0.5rem;
 }
 
-.flex {
+.flex{
   display: flex;
 }
 
-.h-\[37px\] {
+.h-\[37px\]{
   height: 37px;
 }
 
-.w-\[175px\] {
+.w-\[175px\]{
   width: 175px;
 }
 
-.cursor-pointer {
+.cursor-pointer{
   cursor: pointer;
 }
 
-.list-none {
+.list-none{
   list-style-type: none;
 }
 
-.items-center {
+.items-center{
   align-items: center;
 }
 
-.justify-between {
+.justify-between{
   justify-content: space-between;
 }
 
-.rounded-\[12px\] {
+.rounded-\[12px\]{
   border-radius: 12px;
 }
 
-.border {
+.border{
   border-width: 1px;
 }
 
-.border-slate-400 {
+.border-slate-400{
   --tw-border-opacity: 1;
   border-color: rgb(148 163 184 / var(--tw-border-opacity));
 }
 
-.bg-primary {
+.bg-primary{
   --tw-bg-opacity: 1;
   background-color: rgb(12 24 37 / var(--tw-bg-opacity));
 }
 
-.px-\[44px\] {
-  padding-left: 44px;
-  padding-right: 44px;
+.px-\[46px\]{
+  padding-left: 46px;
+  padding-right: 46px;
 }
 
-.py-\[25px\] {
+.py-\[25px\]{
   padding-top: 25px;
   padding-bottom: 25px;
 }
 
-.py-\[16px\] {
+.py-\[16px\]{
   padding-top: 16px;
   padding-bottom: 16px;
 }
 
-.px-\[22px\] {
+.px-\[22px\]{
   padding-left: 22px;
   padding-right: 22px;
 }
 
-.pl-\[45px\] {
+.pl-\[45px\]{
   padding-left: 45px;
 }
 
-.font-semibold {
+.font-semibold{
   font-weight: 600;
+}
+
+.text-white{
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:bg-secondary:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(13 88 196 / var(--tw-bg-opacity));
 }
